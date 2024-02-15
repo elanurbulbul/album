@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    .logo {
+        max-width: 100px;
+        aspect-ratio: 1/1;
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+            li {
+                margin-right: 16px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                .nav-item {
+                    text-decoration: none;
+                    color: #000;
+                    font-weight: 600;
+                    &.active {
+                        color: rgb(153, 0, 255);
+                    }
+                }
+            }
+        }
+    }
+    
+}
