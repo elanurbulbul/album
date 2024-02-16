@@ -4,15 +4,37 @@ import AlbumCard from '../components/AlbumCard'
 export default function Album() {
   return (
     <div>
-        <AlbumCard />
-        <AlbumCard />
-        <AlbumCard />
-        <AlbumCard />
-        <AlbumCard />
-        <AlbumCard />
-        <AlbumCard />
-        <AlbumCard />
-        <AlbumCard />
+      <div class="grid-container">
+        <div class="grid-item">
+            <AlbumCard />
+        </div>
+        <div class="grid-item">
+            <AlbumCard />
+        </div>
+        <div class="grid-item">
+            <AlbumCard />
+        </div>
+        <div class="grid-item">
+            <AlbumCard />
+        </div>
+        <div class="grid-item">
+            <AlbumCard />
+        </div>
+        <div class="grid-item">
+            <AlbumCard />
+        </div>
+        <div class="grid-item">
+            <AlbumCard />
+        </div>
+        <div class="grid-item">
+            <AlbumCard />
+        </div>
+        <div class="grid-item">
+            <AlbumCard />
+        </div>
+      </div>
+        
+      
     </div>
   )
 }
