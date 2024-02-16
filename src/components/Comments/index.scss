@@ -1,0 +1,19 @@
+.commentCard{
+    border: 1px solid #5e0808;
+    border-radius: 5px;
+    padding: 10px;
+
+    .commentCard-name {
+        font-weight:700;
+        font-size: 0.7 rem;
+        margin-bottom: 10px;
+    }
+    .commentCard-email {
+        font-weight:700;
+        font-size: 0.7 rem;
+        margin-bottom: 10px;
+    }
+    .commentCard-body{
+        font-weight: 400;
+    }
+}
