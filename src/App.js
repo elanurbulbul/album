@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Album from './pages/Album';
 import Comments from './pages/Comments';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,13 +12,18 @@ function App() {
 
       <Router>
         <Header />
-
-        <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/album" element={<Album/>} />
-            <Route path="/comments" element={<Comments/>} />
-        </Routes>
+        <div>
+          <Routes>
+              <Route path="/" element={<Home/>} />
+              <Route path="/album" element={<Album/>} />
+              <Route path="/comments" element={<Comments/>} />
+          </Routes>
+        </div>
+        <Footer/>
       </Router>
+      
+    
+      
     </div>
   );
 }
