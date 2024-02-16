@@ -24,7 +24,7 @@ export default function Comments() {
         {comment.map((commentItem) => (
           <div class="grid-item">
             <CommentCard commentItem={commentItem}/>
-          </div>   
+            <a href="#" class="btn btn-primary">Go somewhere</a>          </div>   
         ))}
       </div>
     </div>   
