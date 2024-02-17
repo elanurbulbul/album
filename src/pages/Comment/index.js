@@ -1,6 +1,7 @@
 import React from 'react'
-import CommentCard from '../components/Comments';
+import CommentCard from '../../components/Comments';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 
 export default function Comments() {
@@ -24,10 +25,10 @@ export default function Comments() {
         {comment.map((commentItem) => (
           <div class="grid-item">
             <CommentCard commentItem={commentItem}/>
-            <a href="#" class="btn btn-primary">Go somewhere</a>          </div>   
+            <Link to={`/comments/${commentItem.id} `}>View</Link>
+          </div>
         ))}
-      </div>
+        </div>
     </div>   
   )
 }
-
