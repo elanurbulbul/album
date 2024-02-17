@@ -25,9 +25,16 @@ export default function AlbumDetail() {
 
   return (
     <div>
-        {loading && <Loading />}
-        <h3>{albumItem.title}</h3>
-        <img src={albumItem.thumbnailUrl} alt="album cover"/>
+        {
+          loading 
+          ? 
+            <Loading />
+          : 
+            <>
+              <h3>{albumItem.title}</h3>
+              <img src={albumItem.thumbnailUrl} alt="album cover"/>
+            </>
+        }
     </div>
   )
 }
