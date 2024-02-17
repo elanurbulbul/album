@@ -5,7 +5,7 @@ import './index.scss';
 export default function AlbumCard({albumItem}) {
   return (
     <div className={cx('albumCard')}>
-        <img src={albumItem.thumbnailUrl} alt="album cover" className={cx('albumCard-cover')}/>
+      
         <div className={cx('albumCard-info')}>
             <h3 className={cx('albumCard-title')}>{albumItem.title}</h3>
         </div>

@@ -1,7 +1,8 @@
 import React from 'react'
-import AlbumCard from '../components/AlbumCard'
+import AlbumCard from '../../components/AlbumCard'
 import { useState, useEffect } from 'react';
-import Loading from '../components/Loading/index';
+import Loading from '../../components/Loading/index';
+import { Link } from 'react-router-dom';
 
 export default function Album() {
   const [album, setAlbum] = useState([]);
@@ -28,6 +29,8 @@ export default function Album() {
         {album.map((albumItem) => (
           <div class="grid-item">
             <AlbumCard albumItem={albumItem}/>
+            <Link to={`/album/${albumItem.id} `}>View</Link>
+
           </div>   
         ))}
       </div>
