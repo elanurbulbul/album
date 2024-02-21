@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header';
-import Home from './pages/Home';
+import Home from './pages/HomePage/Home';
 import Album from './pages/Albums';
 import Comments from './pages/Comment/index';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
