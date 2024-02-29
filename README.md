@@ -1,1 +1,1 @@
-https://elanurbulbul.github.io/album
+WEB LİNK: https://elanurbulbul.github.io/album
