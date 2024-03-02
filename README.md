@@ -1,1 +1,1 @@
-Web Link: album-smoky.vercel.app
+Web Link: https://album-smoky.vercel.app
